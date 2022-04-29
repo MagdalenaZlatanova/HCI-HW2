@@ -1,245 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- BOOTSTRAP CORE -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- SPECIFIC CSS -->
-    <link rel="stylesheet" href="css/product.css" />
-  </head>
-  <body>
-    <!-- TOP BAR -->
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <h5 class="text-white h4">Order your TESLA today.</h5>
-        <span class="text-muted">Contact us now: 123 456 789</span>
-      </div>
-    </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </nav>
-    <!-- NAVIGATION BAR -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">TESLA</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- BOOTSTRAP CORE -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- SPECIFIC CSS -->
+  <link rel="stylesheet" href="css/product.css" />
+</head>
+<body>
+<!-- TOP BAR -->
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-dark p-4">
+    <h5 class="text-white h4">"The theory of probabilities is at bottom nothing but common sense reduced to calculation."<br> - Pierre-Simon Laplace</h5>
+  </div>
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+<!-- NAVIGATION BAR -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Sigma +</a>
+    <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+          >
+            My progress
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Last week</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Last month</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Shop
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Tesla Vehicles</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Tesla Accessoires</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">SolarCity Electric Panel</a>
-                </li>
-              </ul>
+            <li>
+              <a class="dropdown-item" href="#">From beginning of time</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <!-- HEADER CAROUSEL -->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/CT.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="images/ME.jpg" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="images/MX.jpg" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">
+          Search
+        </button>
+      </form>
     </div>
-    <!-- Circle Content -->
-    <main>
-      <div class="container teslamodels">
-        <div class="row">
-          <div class="col-lg-4">
-            <img
-              src="images/MX_small.jpg"
-              alt="Generic placeholder image"
-              width="140"
-              height="140"
-            />
-            <h3>MODEL X</h3>
-            <p>
-              With the most power and quickest acceleration of any SUV on the
-              planet, Model X Plaid is the highest performing SUV ever built.
-              Both Long Range and Plaid powertrains, with updated battery
-              architecture, can deliver instant torque at any speed.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button">Order now</a>
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <img
-              src="images/ME_small.jpg"
-              alt="Generic placeholder image"
-              width="140"
-              height="140"
-            />
-            <h3>MODEL S</h3>
-            <p>
-              With the longest range and quickest acceleration of any electric
-              vehicle in production, Model S Plaid is the highest performing
-              sedan ever built. Both Range and powertrains, with updated battery
-              architecture, are capable of back-to-back, consistent 1/4 mile
-              runs.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button">Order now</a>
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <img
-              src="images/CT_small.jpg"
-              alt="Generic placeholder image"
-              width="140"
-              height="140"
-            />
-            <h3>CYBERTRUCK</h3>
-            <p>
-              Cybertruck is built with an shell made for ultimate durability and
-              protection. Starting with a nearly impenetrable exoskeleton, every
-              component is designed for superior strength and endurance, from
-              30X Cold-Rolled stainless-steel skin to Tesla armor glass.
-            </p>
-            <p>
-              <a class="btn btn-secondary" href="#" role="button">Order now</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </main>
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  </div>
+</nav>
+<!-- HEADER CAROUSEL -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3">
+
+    </div>
+    <div class="col-6">
       <div
-        class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
       >
-        <div class="my-3 py-3">
-          <h2 class="display-5">SolarCity Energy</h2>
-          <p class="lead">Clean energy provided by the power of our sun.</p>
+        <div class="carousel-indicators">
+          <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+          ></button>
+          <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+          ></button>
+          <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+          ></button>
         </div>
-        <div
-          class="bg-light box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
-        ></div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/rv.jpg" width="200" height="400" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/Exponential-distribution-and-other-distributions-which-cannot-mimic-the-exponential-fit.png" width="400" height="400" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/negative-bimonial.png" width="400" height="400" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div
-        class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
-      >
-        <div class="my-3 p-3">
-          <h2 class="display-5">GigaFactory</h2>
-          <p class="lead">Join the live opening of Berlins GigaFactory.</p>
-        </div>
-        <div
-          class="bg-dark box-shadow mx-auto"
-          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
-        ></div>
+      <div class="col">
+
       </div>
     </div>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+  </div>
+
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col"></div>
+
+    <div class="col-10">
+      <h4 class="display-5 font-weight-bold">Topics</h4>
+      <div class="row py-3 border-bottom">
+        <div class="col"><img src="images/conditional.png" width="400" height="300" alt="Conditional probability image"/></div>
+        <div class="col set-line-height">
+          <h4>Conditional Probability and Independence</h4>
+          <p>
+            <a class="btn btn-secondary" href="Conditional%20Independence.html" role="button">Open</a>
+          </p>
+        </div>
+      </div>
+      <div class="row py-3 border-bottom">
+        <div class="col set-line-height">
+          <h4>Bernulli Distribution</h4>
+          <p>
+            <a class="btn btn-secondary" href="Random%20Variables.html" role="button">Open</a>
+          </p>
+        </div>
+        <div class="col"><img src="images/bernulli.jpg" width="400" height="300" alt="Bernulli Distribution"/></div>
+      </div>
+      <div class="row py-3 border-bottom">
+        <div class="col"><img src="images/rv.jpg" width="400" height="300" alt="Random Variables image"/></div>
+        <div class="col set-line-height">
+          <h4>Random Variables</h4>
+          <p>
+            <a class="btn btn-secondary" href="Random%20Variables.html" role="button">Open</a>
+          </p>
+        </div>
+      </div>
+      <div class="row py-3 border-bottom">
+        <div class="col set-line-height">
+          <h4>Hypothesis testing</h4>
+          <p>
+            <a class="btn btn-secondary" href="Hypothesis%20Testing.html" role="button">Open</a>
+          </p>
+        </div>
+        <div class="col"><img src="images/HypothesisTesting_ST.jpg" width="400" height="300" alt="Hypothesis testing image"/></div>
+      </div>
+      <div class="row py-3 border-bottom">
+        <div class="col"><img src="images/linear-regression-plot.jpg" width="400" height="300" alt="Linear Regression image"/></div>
+        <div class="col set-line-height">
+          <h4>Linear Regression</h4>
+          <p>
+            <a class="btn btn-secondary" href="Linear%20Regression.html" role="button">Open</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
